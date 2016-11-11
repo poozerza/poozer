@@ -1,0 +1,9 @@
+[Unit]
+Description=Poozer
+After=syslog.target
+
+[Service]
+ExecStart=nohup /home/poozer/app/poozer.jar > /home/poozer/app/server-log.log && 
+
+[Install]
+WantedBy=multi-user.target
