@@ -1,4 +1,4 @@
-package com.poozer.teleporter.controllers;
+package com.poozer.controllers;
 
 
 import javax.servlet.http.HttpServletRequest;
