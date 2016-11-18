@@ -43,7 +43,7 @@ public class WebController {
 			userRepository.save(user);
 			message = new NotificationMessage("Eita Da! Now that we've got your details, we'll stay in touch.");
 		} else {
-			message = new ErrorMessage("Opps! Seems like we already have those details, but thanks for the love.");
+			message = new ErrorMessage("Oops! Seems like we already have those details, but thanks for the love.");
 		}
 		modelAndView.addObject("message", message);
 		return modelAndView;
